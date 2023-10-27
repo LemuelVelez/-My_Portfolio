@@ -26,6 +26,10 @@ const Home = () => {
           <p className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
             Curabitur aliquam erat eu tellus tristique iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut euismod neque purus, vel volutpat nisl ornare.
           </p>
+          {/* btn */}
+          <div className='flex justify-center xl:hidden'>
+            <ProjectsBtn />
+          </div>
         </div>
       </div>
       {/* image */}
