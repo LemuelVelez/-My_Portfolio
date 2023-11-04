@@ -113,7 +113,7 @@ const About = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-        className='hidden xl:flex absolute bottom-0 -left-[320px]'>
+        className='w-full h-full max-w-[537px] max-h-[478px] absolute -bottom-32 lg:bottom-0 -left-[270px]'>
         <Avatar />
       </motion.div>
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
