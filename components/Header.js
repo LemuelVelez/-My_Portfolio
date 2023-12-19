@@ -15,11 +15,11 @@ const Header = () => {
           {/* logo */}
           <Link href={'/'}>
             <Image
-              src={'/logo.svg'}
+              src={'/logo.png'}
               width={220}
               height={48}
               alt=''
-              priority={true}
+              priority={true} 
               style={{ width: 'auto', height: 'auto' }}
             />
           </Link>
