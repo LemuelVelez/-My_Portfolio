@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 
 // icons
@@ -16,7 +18,6 @@ import {
   SiAdobexd,
   SiAdobephotoshop,
 } from "react-icons/si";
-
 
 //  data
 const aboutData = [
@@ -103,7 +104,7 @@ import CountUp from "react-countup";
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  console.log(index);
+
   return (
     <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
       <Circles />
@@ -133,7 +134,7 @@ const About = () => {
             animate='show'
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-            10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer use.
+           10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer use.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -218,7 +219,7 @@ const About = () => {
                   <div className='flex gap-x-4'>
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className='text-2xl text-white'>{icon}</div>;
+                      return <div key={itemIndex} className='text-2xl text-white'>{icon}</div>;
                     })}
                   </div>
                 </div>
