@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/android-chrome-512x512.png" />
         {/* Add other meta tags, styles, or scripts as needed */}
       </Head>
       <Layout>
