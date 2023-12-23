@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // components
 import ServiceSlider from '../../components/ServiceSlider';
 import Bulb from '../../components/Bulb';
