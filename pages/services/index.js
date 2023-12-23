@@ -21,7 +21,7 @@ const Services = () => {
               animate='show'
               exit='hidden'
               className='h2 xl:mt-8'>
-              My Services <span className='text-accent'>.</span>
+              Front-end Development Services <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -30,7 +30,7 @@ const Services = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus, felis nec porttitor mattis, massa ipsum sollicitudin massa, nec pretium justo metus eget metus. Nunc auctor id eros ac faucibus.
+              Offering thoughtful solutions for your web projects. From basic enhancements to responsive design, I strive to make your website user-friendly and visually appealing. Let's work together to bring your ideas to life.
             </motion.p>
           </div>
 
@@ -47,7 +47,8 @@ const Services = () => {
         </div>
       </div>
       <Bulb />
-    </div>);
+    </div>
+  );
 };
 
 export default Services;

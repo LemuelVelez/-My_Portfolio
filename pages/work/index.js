@@ -21,7 +21,7 @@ const Work = () => {
               animate='show'
               exit='hidden'
               className='h2 xl:mt-12'>
-              My Work <span className='text-accent'>.</span>
+              My Front-end Projects <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -30,7 +30,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus, felis nec porttitor mattis, massa ipsum sollicitudin massa, nec pretium justo metus eget metus.
+              Exploring the world of front-end development, I've worked on projects that showcase my evolving skills. From crafting responsive layouts to implementing interactive elements, each project is a step in my journey as a budding front-end developer.
             </motion.p>
           </div>
 
@@ -47,7 +47,8 @@ const Work = () => {
         </div>
       </div>
       <Bulb />
-    </div>);
+    </div>
+  );
 };
 
 export default Work;

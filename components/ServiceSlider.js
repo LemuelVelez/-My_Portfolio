@@ -8,43 +8,43 @@ import 'swiper/css/pagination';
 
 // icons
 import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
-  RxArrowTopRight,
-} from "react-icons/rx";
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaReact,
+  FaRocket,
+  FaPaintBrush,
+} from "react-icons/fa";
 
-// import require modules
+// import required modules
 import { FreeMode, Pagination } from 'swiper';
 
 // service data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <FaHtml5 />,
+    title: 'Front-end Coding',
+    description: 'Crafting clean and efficient HTML, CSS, and JavaScript code for seamless user experiences.',
   },
   {
-    icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <FaCss3 />,
+    title: 'Responsive Design',
+    description: 'Building websites that adapt and look great on various devices, ensuring a smooth user experience.',
   },
   {
-    icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <FaJs />,
+    title: 'Interactive UIs',
+    description: 'Creating dynamic and interactive user interfaces using JavaScript and front-end frameworks.',
   },
   {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <FaReact />,
+    title: 'React Development',
+    description: 'Utilizing React to build modular and reusable components for scalable web applications.',
   },
   {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <FaRocket />,
+    title: 'Performance Optimization',
+    description: 'Optimizing website performance for faster loading and improved user satisfaction.',
   },
 ];
 
@@ -56,12 +56,10 @@ const ServiceSlider = () => {
           slidesPerView: 1,
           spaceBetween: 15,
         },
-
         640: {
           slidesPerView: 3,
           spaceBetween: 15,
         },
-
       }}
       freeMode={true}
       pagination={{
@@ -83,13 +81,12 @@ const ServiceSlider = () => {
               </div>
               {/* arrow */}
               <div className='text-3xl'>
-                <RxArrowTopRight className='group-hover:rotate-45 group-hover:text-accent transition-all duration-300' />
+                <FaPaintBrush className='group-hover:rotate-45 group-hover:text-accent transition-all duration-300' />
               </div>
             </div>
           </SwiperSlide>
         );
-      }
-      )}
+      })}
     </Swiper>
   );
 };

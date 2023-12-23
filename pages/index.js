@@ -25,7 +25,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='h1'>
-            Transforming Ideas <br /> Into {' '} <span className='text-accent'> Digital Reality</span>
+            I am Lemuel T. Velez <br />{' '} <span className='text-accent'> Front-end Web Developer</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -34,7 +34,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-            Curabitur aliquam erat eu tellus tristique iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut euismod neque purus, vel volutpat nisl ornare.
+            Aspiring Front-end Web Developer | Dedicated to Transforming Ideas into Engaging Digital Experiences | Proficient in HTML, CSS, and JavaScript | Committed to Crafting Intuitive User Interfaces for Seamless User Experiences.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden'>

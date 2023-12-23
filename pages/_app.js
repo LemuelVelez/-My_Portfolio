@@ -1,4 +1,3 @@
-// pages/_app.js
 import Head from 'next/head';
 import '../styles/globals.css';
 import Layout from '../components/Layout';
